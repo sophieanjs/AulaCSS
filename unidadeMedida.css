@@ -1,0 +1,38 @@
+*{
+font-size: 20px;
+}
+p{
+    /* font-size: 2cm; - Unidade de medida abs */
+    /* font-size: 21in; - Unidade de medida abs */
+    font-size: 20px;
+}
+h2{
+    font-size: 1,5;
+    display: none;
+}
+
+
+/* Unidades de medida relativa
+2cm - valor numérico com unidade, seu tamanho esta relaciobado ao tamanho do elemento superior. */
+
+/* 2rem - Valor numérico com unidade, seu tamanho está
+relacionado ao elemento root */
+
+ul{
+    list-style: none; /* Remova o marcador */
+}
+
+li{
+
+}
+
+ul{
+    list-style: 2em;
+    font-size: 2em;
+    /* 20px*2 = 30px */
+}
+li{
+    font-size: 3.5rem;
+    /* 52,5px */
+    
+}
