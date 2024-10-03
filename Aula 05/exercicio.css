@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.box1 {
+    /* background-color: rgb(red, green, blue); */
+    background-color: #333;
+    color: #f4f4f4;
+    border-top: dotted red;
+    border-left: solid red;
+    border-right: solid red;
+    border-bottom: solid 10px red;
+    padding: 13px;
+}
+
+.container {
+    margin: 15px;
+}
+
+a {
+    background-color: #333;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.box2 {
+    padding: 15px 0px 0px;
+    line-height: 25px;
+}

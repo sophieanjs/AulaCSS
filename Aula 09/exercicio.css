@@ -1,0 +1,23 @@
+
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: solid 1px;
+    margin: 5px;
+}
+.c1{
+    background-color: darkred;
+}
+
+.container{
+    border: solid 1px;
+    height: 800px;
+    width: 800px;
+    margin: 25px auto;
+    background-color: gray;
+    display: flex;
+    flex-flow: column-reverse wrap;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}

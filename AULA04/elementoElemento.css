@@ -1,0 +1,9 @@
+p{
+    color: darkred;
+}
+ul p{
+color: hotpink;
+}
+li, p, .cachorro, #gato{
+    text-shadow: 10px 5px 15px darkviolet;
+}

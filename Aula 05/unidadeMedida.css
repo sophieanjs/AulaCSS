@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.box1{
+    width: 100vw;
+    height: 80vh;
+    background-color: rgb(255, 77, 0);
+}
+
+.box2{
+    /* em | rem
+    /*VH | VW | VMIN | VMAX */  */
+    width: 100vw;
+    height: 80vh;
+    background-color: cadetblue;
+    margin:
+}
+.box3{
+    width: 100vw;
+    height: 10vh;
+    background-color: crimson;
+}
+ /* 1920x1200
+    width:10vmin - 120px
+    width:10vmax - 192px
+    width: 10vw - 10% 
+ */
+
+ 

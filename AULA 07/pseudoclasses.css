@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    color: indigo;
+}
+
+h1:hover{
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1.focus {
+    border: 2px solid blue;
+}

@@ -1,0 +1,45 @@
+.texto {
+  font-size: 2,5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* media screem
+media print
+media landscape */
+
+@media screen and (max-width:320px) {
+
+  /* Enquanto a tela for menor que 320px */
+  h1 {
+    color: darkred;
+  }
+}
+
+/* 320px - 480px - Dispositivos moveis
+760- 1024 - Tablets e mobile.
+1201 - telas maiores e Tvs */
+
+@media print and (max-width: 1200px) {
+  h2 {
+    color: blue;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 769px) {
+  h3 {
+    color: aquamarine;
+    text-align: right;
+  }
+}
+
+@media (min-width: 1024px){
+
+}
+
+@media (min-width:1025px), (max-width:1201px){
+h1, h3  {
+  display: none; 
+}
+}

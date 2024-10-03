@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#container {
+    display: grid;
+    width: 800px;
+    height: 500px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-areas:
+        "caixa1 caixa1 caixa1"
+        "caixa2 caixa2 caixa2"
+        "caixa3 caixa3 caixa3"
+    ;
+}
+
+.caixa1 {
+    background-color: purple;
+
+}
+
+.caixa2 {
+    background-color: pink;
+
+}
+
+.caixa3 {
+    background-color: darkred;
+
+}

@@ -1,0 +1,48 @@
+*{
+color: black;
+}
+
+
+.container{
+    height:700px ;
+    width: 800px;
+    margin: 50px auto;
+    background-color: silver;
+    border: dotted 1px darkred;
+    display: grid ;
+    /* grid-template-columns: 20% 20% 20% 20%; */
+    /* grid-template-columns: ; */
+    /* grid-template-columns: 200px 200px 200px 200px; */
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(5px 1fr) ;
+    grid-template-areas: 
+    "header header header header header"
+    "prop prop main main main"
+    "prop prop main main main"
+    "prop prop main main main"
+    "footer footer footer footer footer"
+    
+    ;
+    .box1{
+        grid-area: header;
+        background-color: darkred;
+        text-align: center;
+    }
+}
+
+.box2{
+    grid-area: prop;
+    background-color: black;
+
+}
+
+.box3{
+    grid-area: main;
+    background-color: darkorange;
+
+}
+
+.box4{
+    grid-area: footer;
+    background-color: darkred;
+}

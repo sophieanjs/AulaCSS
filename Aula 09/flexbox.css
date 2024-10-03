@@ -1,0 +1,81 @@
+
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: solid 1px;
+    margin: 5px;
+}
+
+
+.container {
+    border: solid 1px;
+    height: 800px;
+    width: 800px;
+    margin: 25px auto;
+    background-color: silver;
+
+    /* display: inline; Organizar os items em linha, não permite altura e largura (heigth | width)
+    display: none; Remove o elemento de tela
+    display: block; Permite que voce altere a heigth | width
+    display: inline-block; em linha e permite alterar design*/
+
+    display: flex;
+    /* Mudar o layout do display */
+
+    /* flex-direction:Muda o comportamento do container */
+    /* flex-direction:row; Muda o comportamento do container*/
+    /* flex-direction:column; 
+    flex-direction:row; */
+    flex-direction: row-reverse;
+
+    /*Padrão de escrita esquerda p/ direita*/
+    /* direction: ltr; muda a ordem do elemento 1 para left e pra right */
+    /* direction: rtl; */
+
+    /*Faz a quebra dos elementos da linha ou coluna 
+    (flex-direction define o comportamento)*/
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    flex-wrap: wrap-reverse; */
+
+    flex-flow: row nowrap; /* para que a linha não quebre*/
+
+    /*Equivalente aos elementos anteriores 
+     flex-direction: row;
+     flex-wrap: nowrap; 
+    */
+
+    /* justify-content: center; Alinhamento seguindo a orientação do main axis
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: end;
+    justify-content: start; */
+    justify-content: space-evenly; /*Realocar os espaços do container*/
+    /* justify-content: space-around; 
+    justify-content: space-around;  */
+    justify-content: center;
+    /* align-items: center; */
+    justify-content: ;
+
+}
+
+.c1 {
+    background-color: rgb(255, 93, 220);
+    order: -3;
+    flex-grow: 4;
+}
+
+.c2 {
+    background-color: purple;
+    order: 2;
+}
+
+.c3 {
+    background-color: blue;
+  order: 1;
+}
